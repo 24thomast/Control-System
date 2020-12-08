@@ -1,1 +1,1 @@
-# HERO-Control-System
+# HERO Control System
