@@ -80,8 +80,6 @@ namespace HERO_Board
                     Piston();
                 }
                 Display();
-                Debug.Print(displayMode.ToString());
-                Debug.Print(displayModeRefresh.ToString());
                 CTRE.Phoenix.Watchdog.Feed();
                 Thread.Sleep(tSleep);
             }
