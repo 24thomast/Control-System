@@ -52,16 +52,28 @@
   - Default: 0 ticks, Range: 0 ticks to 40960 ticks
 - Max Rotations (controlled by the first potentiometer)
   - Default: 1 rotation, Range: 1 rotation to 10 rotations
-- Cruise Velocity (controlled by the first potentiometer)
+- Cruise Velocity (controlled by the second potentiometer)
   - Default: 8000 units/100ms, Range: 5000 units/100ms to 15000 units/100ms
-- Acceleration:
+- Acceleration (controlled by the third potentiometer)
   - Default: 16000 units/100ms/s, Range: 10000 units/100ms/s to 20000 units/100ms/s
 - System Sleep Time
   - Default: 50ms, Range: 50ms or 80ms to 1000ms
   
 ## Wiring
 
+- TalonSRX: Use 0 as the Talon ID (Change in Pheonix Lifeboat)
+- Pneumatics: Connect to 0 and 1 on the Pneumatics Control Module
+- Display: Connect to Port 8 on the HERO Board
+- Potentiometers: Connect to Port 1 on the HERO Board
+  - Potentiometer 1: Connect to Pin 3
+  - Potentiometer 2: Connect to Pin 4
+  - Potentiometer 3: Connect to Pin 5
+
 ## Additional Information
+
+- Everything in this control system works together meaning that changing pages on a display (back buttons), controlling the motor's output (left joystick), and switching the piston's state (front top-right button) could all be done at the same time
+- For more resources, check out https://www.ctr-electronics.com/downloads/api/archive_4.4.X/hero_cs/index.html
+- If you encounter any bug or problem, please send an email to 24thomast@students.tas.tw. Thank you!
 
 
 
