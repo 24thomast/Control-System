@@ -41,10 +41,17 @@
   
 ## Colour Blocks
 
-- Motor Control Page (Goes gradually from white to green or white to red)
-  - White: Y value of the left joystick is 0
-  - Green: Y value of the left joystick is positive
-  - Red: Y value of the left joystick is negative
+- Motor Control Page (Left Block: X-Axis of Left Joystick, Right Block: Y-Axis of Left Joystick)
+  - White: Value is 0
+  - Green: Value is positive
+  - Red: Value is negative
+- Motion Magic Page (Block: Y-Axis of Left Joystick)
+  - White: Value is 0
+  - Green: Value is positive
+  - Red: Value is negative
+  
+- Some of the colours of the colour blocks darken or fade as the values increase or decrease
+  
   
 ## Wiring
 
@@ -61,7 +68,7 @@
 1. Make sure that the Control Mode is in Motion Magic mode (press the front top-left button on the game controller if necessary).
 2. Move the left joystick around on the y-axis until the motor is at the desired position (can't be 0 ticks).
 3. Click on either the X, Y, A, or B button on the game controller while holding onto the left joystick.
-4. Go to the Motion Values Page and check if the value is saved (use the back buttons to switch between pages).
+4. Go to the Motion Values page and check if the value is saved (use the back buttons to switch between pages).
 
 ## Going Back To The Saved Position In Motion Magic
 
