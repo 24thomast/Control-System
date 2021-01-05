@@ -41,8 +41,27 @@
 6. Press on the same button again to unlock the saved position, and the motor would go back to its default position (0 ticks)
 7. Press on a different button with a saved position/value to skip to another position
 
-- Lock Position: Press on a button (X, Y, A, or B) with its matching square on the Motion Values page white 
-- Unlock Position: Press on a button (X, Y, A, or B) with its matching square on the Motion Values page green
+- Lock Position: Press on a button (X, Y, A, or B) with its matching square on the Motion Values page white (turns green after)
+- Unlock Position: Press on a button (X, Y, A, or B) with its matching square on the Motion Values page green (turns white after)
+
+## Values
+
+- Percent Output (controlled by the y-axis of the left joystick)
+  - Default: 0, Range: -1 to 1
+- Motion Magic(controlled by the y-axis of the left joystick)
+  - Default: 0 ticks, Range: 0 ticks to 40960 ticks
+- Max Rotations (controlled by the first potentiometer)
+  - Default: 1 rotation, Range: 1 rotation to 10 rotations
+- Cruise Velocity (controlled by the first potentiometer)
+  - Default: 8000 units/100ms, Range: 5000 units/100ms to 15000 units/100ms
+- Acceleration:
+  - Default: 16000 units/100ms/s, Range: 10000 units/100ms/s to 20000 units/100ms/s
+- System Sleep Time
+  - Default: 50ms, Range: 50ms or 80ms to 1000ms
+  
+## Wiring
+
+## Additional Information
 
 
 
