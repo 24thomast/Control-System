@@ -41,11 +41,11 @@
   
 ## Colour Blocks
 
-- Motor Control Page (Left Block: X-Axis of Left Joystick, Right Block: Y-Axis of Left Joystick)
+- Motor Control Page (Left Block: X-Axis of the left joystick, Right Block: Y-Axis of the left joystick)
   - White: Value is 0
   - Green: Value is positive
   - Red: Value is negative
-- Motion Magic Page (Block: Y-Axis of Left Joystick)
+- Motion Magic Page (Block: Y-Axis of the left joystick)
   - White: Value is 0
   - Green: Value is positive
   - Red: Value is negative
@@ -88,12 +88,4 @@
   - https://www.ctr-electronics.com/downloads/api/archive_4.4.X/hero_cs/index.html
   - https://github.com/CrossTheRoadElec/
   - https://phoenix-documentation.readthedocs.io/en/latest/.
-- If you encounter any bug or problem, please send an email to 24thomast@students.tas.tw. Thank you!
-
-
-
-
-
-
-
-
+- If you encounter a bug or problem, please send an email to 24thomast@students.tas.tw. Thank you!
