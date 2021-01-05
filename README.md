@@ -59,7 +59,6 @@
 - Pneumatic Control Page (Right Block: Front top-right button)
   - Blue: State of piston is out (0 on PCM)
   - White: State of piston is in (1 on PCM)
-  
 - Some of the colours of the colour blocks darken or fade as the values increase or decrease
   
 ## Wiring
