@@ -26,20 +26,20 @@
 
 ## Saving Values In Motion Magic
 
-1. Make sure that the Control Mode is in Motion Magic mode (press the front top-left button on the game controller if necessary)
-2. Move the left joystick around on the y-axis until the motor is at the desired position (can't be 0 ticks)
-3. Click on either the X, Y, A, or B button on the game controller while holding onto the left joystick
-4. Go to the Motion Values Page and check if the value is saved (use the back buttons to switch between pages)
+1. Make sure that the Control Mode is in Motion Magic mode (press the front top-left button on the game controller if necessary).
+2. Move the left joystick around on the y-axis until the motor is at the desired position (can't be 0 ticks).
+3. Click on either the X, Y, A, or B button on the game controller while holding onto the left joystick.
+4. Go to the Motion Values Page and check if the value is saved (use the back buttons to switch between pages).
 
 ## Going Back To The Saved Position In Motion Magic
 
-1. Make sure that the Control Mode is in Motion Magic mode (press the front top-left button on the game controller if necessary)
-2. Let go of the left joystick so that the number of ticks counted (could be seen on the Motion Magic page) is 0
-3. Click on the button (X, Y, A, or B) where the position/value was saved (could be found on the Motion Values page)
-4. If the value was saved correctly, the motor should go to that position right away and stay there
-5. The matching square (X, Y, A, or B) on the Motion Value page should light green, signalling that the position is locked
-6. Press on the same button again to unlock the saved position, and the motor would go back to its default position (0 ticks)
-7. Press on a different button with a saved position/value to skip to another position
+1. Make sure that the Control Mode is in Motion Magic mode (press the front top-left button on the game controller if necessary).
+2. Let go of the left joystick so that the number of ticks counted (could be seen on the Motion Magic page) is 0.
+3. Click on the button (X, Y, A, or B) where the position/value was saved (could be found on the Motion Values page).
+4. If the value was saved correctly, the motor should go to that position right away and stay there.
+5. The matching square (X, Y, A, or B) on the Motion Value page should light green, signalling that the position is locked.
+6. Press on the same button again to unlock the saved position, and the motor would go back to its default position (0 ticks).
+7. Press on a different button with a saved position/value to skip to another position.
 
 - Lock Position: Press on a button (X, Y, A, or B) with its matching square on the Motion Values page white (turns green after)
 - Unlock Position: Press on a button (X, Y, A, or B) with its matching square on the Motion Values page green (turns white after)
@@ -71,8 +71,11 @@
 
 ## Additional Information
 
-- Everything in this control system works together meaning that changing pages on a display (back buttons), controlling the motor's output (left joystick), and switching the piston's state (front top-right button) could all be done at the same time
-- For more resources, check out https://www.ctr-electronics.com/downloads/api/archive_4.4.X/hero_cs/index.html
+- Everything in this control system works together meaning that changing pages on a display (back buttons), controlling the motor's output (left joystick), and switching the piston's state (front top-right button) could all be done at the same time.
+- For more resources, check out these pages.
+  - https://www.ctr-electronics.com/downloads/api/archive_4.4.X/hero_cs/index.html
+  - https://github.com/CrossTheRoadElec/
+  - https://phoenix-documentation.readthedocs.io/en/latest/.
 - If you encounter any bug or problem, please send an email to 24thomast@students.tas.tw. Thank you!
 
 
