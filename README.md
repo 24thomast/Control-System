@@ -49,12 +49,23 @@
   - White: Value is 0
   - Green: Value is positive
   - Red: Value is negative
+- Motion Magic Saved Values Page (4 Blocks: X, Y, A, and B buttons)
+  - White: Position is not in use
+  - Green: Position is in use
+- Pneumatic Control Page (Left Block: Y-axis of the right joystick)
+  - White: Value is 0
+  - Green: Value is positive
+  - Red: Value is negative
+- Pneumatic Control Page (Right Block: Front top-right button)
+  - Blue: State of piston is out (0 on PCM)
+  - White: State of piston is in (1 on PCM)
+  
 - Some of the colours of the colour blocks darken or fade as the values increase or decrease
   
 ## Wiring
 
 - TalonSRX: Use 0 as the Talon ID (Change in Pheonix Lifeboat)
-- Pneumatics: Connect to 0 and 1 on the Pneumatics Control Module
+- Pneumatics: Connect to 0 (piston out) and 1 (piston in) on the Pneumatics Control Module
 - Display: Connect to Port 8 on the HERO Board
 - Potentiometers: Connect to Port 1 on the HERO Board
   - Potentiometer 1: Connect to Pin 3
@@ -78,8 +89,8 @@
 6. Press on the same button again to unlock the saved position, and the motor would go back to its default position (0 ticks).
 7. Press on a different button with a saved position/value to skip to another position.
 
-- Lock Position: Press on a button (X, Y, A, or B) with its matching square on the Motion Values page white (turns green after)
-- Unlock Position: Press on a button (X, Y, A, or B) with its matching square on the Motion Values page green (turns white after)
+- Lock Position: Press on a button (X, Y, A, or B) with its matching square on the Motion Values page white (then turns green)
+- Unlock Position: Press on a button (X, Y, A, or B) with its matching square on the Motion Values page green (then turns white)
 
 ## Additional Information
 
@@ -88,4 +99,4 @@
   - https://www.ctr-electronics.com/downloads/api/archive_4.4.X/hero_cs/index.html
   - https://github.com/CrossTheRoadElec/
   - https://phoenix-documentation.readthedocs.io/en/latest/.
-- If you encounter a bug or problem, please send an email to 24thomast@students.tas.tw. Thank you!
+- If you encounter a bug or problem in the program, please send an email to 24thomast@students.tas.tw. Thank you!
