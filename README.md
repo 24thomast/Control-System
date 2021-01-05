@@ -49,9 +49,7 @@
   - White: Value is 0
   - Green: Value is positive
   - Red: Value is negative
-  
 - Some of the colours of the colour blocks darken or fade as the values increase or decrease
-  
   
 ## Wiring
 
