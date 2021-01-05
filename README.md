@@ -39,6 +39,13 @@
 - System Sleep Time
   - Default: 50ms, Range: 50ms or 80ms to 1000ms
   
+## Colour Blocks
+
+- Motor Control Page (Goes gradually from white to green or white to red)
+  - White: Y value of the left joystick is 0
+  - Green: Y value of the left joystick is positive
+  - Red: Y value of the left joystick is negative
+  
 ## Wiring
 
 - TalonSRX: Use 0 as the Talon ID (Change in Pheonix Lifeboat)
